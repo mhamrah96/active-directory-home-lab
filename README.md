@@ -60,6 +60,12 @@ Installed the Active Directory Domain Services role using Server Manager and pro
 #### Promoting the Server to Domain Controller
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/f575380d-55f7-459b-a3b8-3f16f157170c" />
 
+### RRAS / NAT Configuration
+Configured RRAS (Routing and Remote Access Services) with NAT to allow internal domain clients to access the internet through the Domain Controller.
+
+<img width="500" height="425" alt="image" src="https://github.com/user-attachments/assets/0ec6c6d6-0283-4a08-8a09-2655b3a9b4a2" />
+
+
 ### DHCP Configuration
 Configured DHCP services to dynamically assign IP addresses to domain clients on the internal 172.16.0.0/24 network.
 
@@ -71,12 +77,6 @@ Configured DHCP services to dynamically assign IP addresses to domain clients on
 
 #### DHCP Address Lease Verification
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/f6e09f8b-848e-4b0c-bb35-d018d3a4067d" />
-
-### RRAS / NAT Configuration
-Configured RRAS (Routing and Remote Access Services) with NAT to allow internal domain clients to access the internet through the Domain Controller.
-
-<img width="500" height="425" alt="image" src="https://github.com/user-attachments/assets/0ec6c6d6-0283-4a08-8a09-2655b3a9b4a2" />
-
 
 ### Domain Join
 Joined the Windows 10 client workstation to the Active Directory domain.
