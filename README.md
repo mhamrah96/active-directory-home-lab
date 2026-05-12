@@ -107,6 +107,10 @@ Used PowerShell automation to bulk-create domain users and improve administrativ
 ### PowerShell User Creation Script
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/6acd4a98-85d0-4e95-9e82-01ad48467da8" />
 
+## The following PowerShell script was used to automate bulk Active Directory user creation and provisioning:
+[bulk-user-creation.ps1](scripts/bulk-user-creation.ps1)
+
+
 ### Verifying User Creation in ADUC
 <img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/92f75aec-052d-4f77-89fb-5b4833c25313" />\
 
