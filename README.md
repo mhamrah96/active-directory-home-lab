@@ -94,10 +94,10 @@ Created department-based Organizational Units to organize users and apply polici
 
 Departments created:
 
-IT
-Marketing
-Management
-Finance
+- IT
+- Marketing
+- Management
+- Finance
 
 <img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/3ceee93d-2caf-4b26-97c1-84efb4a32e96" />
 
@@ -178,7 +178,7 @@ Configured an account lockout threshold that disabled accounts after three faile
 #### Locked Account Confirmation in ADUC
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/bb181603-a470-4800-ad3f-c6d22af8ef02" />
 
-### Shared Folder Premissions
+### Shared Folder Permissions
 #### Finance Security Group
 Created a Finance_Group security group to manage access permissions for department-specific shared resources.
 
@@ -238,21 +238,24 @@ Validating domain communication between the server and client
 
 ### Skills Demonstrated
 
-Active Directory Domain Services (AD DS)
-DNS and DHCP configuration
-RRAS/NAT routing
-Windows Server administration
-Domain joining Windows clients
-Organizational Units (OUs)
-PowerShell user provisioning
-Delegation of Control
-Group Policy Objects (GPOs)
-Password complexity and account lockout policies
-NTFS and Share permissions
-Role-Based Access Control (RBAC)
-Remote Desktop Protocol (RDP)
-Network troubleshooting
-VirtualBox virtualization
+- Active Directory Domain Services (AD DS)
+- Windows Server 2019 Administration
+- DNS and DHCP Configuration
+- RRAS/NAT Routing
+- Windows 10 Domain Joining
+- Organizational Unit (OU) Management
+- Group Policy Object (GPO) Administration
+- PowerShell Automation and User Provisioning
+- Delegation of Control
+- Remote Desktop Protocol (RDP) Configuration
+- Password Complexity and Account Lockout Policies
+- NTFS and Share Permissions
+- Role-Based Access Control (RBAC)
+- Security Group Administration
+- Mapped Network Drive Configuration
+- Troubleshooting DHCP, DNS, and APIPA Issues
+- VirtualBox Network Configuration
+- Basic Enterprise Network Architecture
 
 
 
