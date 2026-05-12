@@ -1,3 +1,7 @@
+![Windows Server](https://img.shields.io/badge/Windows_Server-2019-blue)
+![Active Directory](https://img.shields.io/badge/Active_Directory-Lab-green)
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-blue)
+
 # Active Directory Infrastructure & PowerShell Administration Lab
 This project documents the setup of a Windows Server 2019 Active Directory lab in VirtualBox. The environment includes a domain controller, DNS, DHCP, RRAS/NAT, a domain-joined Windows 10 client, Group Policy, delegated administration, PowerShell user provisioning, and shared folder permissions.
 
