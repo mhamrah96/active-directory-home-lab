@@ -15,22 +15,22 @@ This project documents the setup of a Windows Server 2019 Active Directory lab i
 - DHCP Scope: 172.16.0.100–172.16.0.200
 
 ## Infrastructure Setup
-# Server 2019 adapter setup:
+## Server 2019 adapter setup:
 Internet (NAT):
 <img width="975" height="446" alt="image" src="https://github.com/user-attachments/assets/62ed928a-70a6-47bb-8cda-8591688c5d24" />
 Internal:
 <img width="975" height="467" alt="image" src="https://github.com/user-attachments/assets/70f22a4c-2c40-496e-9a25-813e28c8d6c6" />
 
-# Static Internal IP Configuration:
+## Static Internal IP Configuration:
 <img width="702" height="867" alt="image" src="https://github.com/user-attachments/assets/718eff9d-e2f5-4365-9017-34650d533bda" />
 
-# AD Domain Service Installation:
+## AD Domain Service Installation:
 <img width="975" height="597" alt="image" src="https://github.com/user-attachments/assets/fb4d2ce3-b8f2-419b-8452-9a70931a8c30" />
 
 Promoting the Server to DC:
 <img width="975" height="582" alt="image" src="https://github.com/user-attachments/assets/f575380d-55f7-459b-a3b8-3f16f157170c" />
 
-# DHCP Setup:
+## DHCP Setup:
 Scope:
 <img width="975" height="851" alt="image" src="https://github.com/user-attachments/assets/6e6fa761-9854-413f-8a1a-360ed7b6e892" />
 
@@ -40,14 +40,14 @@ Confirming client is receiving a DHCP from our scope:
 Client's computer shown in our address leases:
 <img width="975" height="443" alt="image" src="https://github.com/user-attachments/assets/f6e09f8b-848e-4b0c-bb35-d018d3a4067d" />
 
-# Domain Join:
+## Domain Join:
 <img width="833" height="709" alt="image" src="https://github.com/user-attachments/assets/e7fd7ae4-5362-49a1-85af-21652599c9b4" />
 
 Double checking client join through AD UC Computers:
 <img width="833" height="709" alt="image" src="https://github.com/user-attachments/assets/6366ed5a-e399-45b3-9a28-731523c29847" />
 
 
-# Active Directory Administration
+## Active Directory Administration
 
 ## Created four Organizational Units (IT, Marketing, Management, Finance):
 <img width="383" height="489" alt="image" src="https://github.com/user-attachments/assets/3ceee93d-2caf-4b26-97c1-84efb4a32e96" />
@@ -61,7 +61,7 @@ Confirming user creation:
 
 
 ## Delegation + RDP
-# Delegated a user and gave reset password premissions:
+## Delegated a user and gave reset password premissions:
 <img width="795" height="631" alt="image" src="https://github.com/user-attachments/assets/c46c42e0-9b11-4310-b726-061b82e80c62" />
 
 Enable "Allow remote connections to this computer" through System Properties -> Remote:
