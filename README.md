@@ -140,7 +140,7 @@ Enabled Remote Desktop access on the server and created an RDP-specific security
 <img src="screenshots/RDP-Users.png" width="450">
 
 #### RDP Access Configuration Command
-<img src="screenshots/RDP-Access-Prompt.png" width="450">
+<img src="screenshots/RDP-Access-prompt.png" width="450">
 
 #### Logging into the Server via RDP
 <img src="screenshots/RDP-Login.png" width="450">
@@ -214,7 +214,7 @@ The effective permissions applied to users are determined by the most restrictiv
 Verified successful access to the shared folder using a user account that was a member of Finance_Group.
 
 #### Finance User Access
-<img width="450" height="275" alt="image" src="https://github.com/user-attachments/assets/492e7c9f-a568-41bb-b067-4dd454150b78" />
+<img src="screenshots/financeshare-mmc.png" width="450">
 
 #### Successful Folder Access
 <img src="screenshots/financeshare-access.png" width="450">
