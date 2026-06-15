@@ -5,7 +5,7 @@
 
 
 
-# Enterprise Active Directory Infrastructure Lab
+# Active Directory & Entra ID Integration Lab
 This project documents the setup of a Windows Server 2019 Active Directory lab in VirtualBox. The environment includes a domain controller, DNS, DHCP, RRAS/NAT, a domain-joined Windows 10 client, Group Policy, delegated administration, PowerShell user provisioning, and shared folder permissions.
 
 ## Key Skills Demonstrated
