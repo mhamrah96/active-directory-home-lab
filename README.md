@@ -274,19 +274,42 @@ Troubleshooting steps included:
 - Validating domain communication between the server and client
 
 
+
+
 # Hybrid Identity Extension: Microsoft Entra ID Integration
-### After successfully deploying and configuring the on-premises Active Directory environment, the project was extended by integrating Active Directory Domain Services with Microsoft Entra ID using Microsoft Entra Connect Sync. This allowed domain users and groups to be synchronized to the cloud, creating a hybrid identity environment commonly used in modern enterprise networks.
+## After successfully deploying and configuring the on-premises Active Directory environment, the project was extended by integrating Active Directory Domain Services with Microsoft Entra ID using Microsoft Entra Connect Sync. This allowed domain users and groups to be synchronized to the cloud, creating a hybrid identity environment commonly used in modern enterprise networks.
 
-## 
+#### Downloading Microsoft Entra Connect
+Microsoft Entra Connect was downloaded from Microsoft's official download center. This tool enables synchronization between on-premises Active Directory and Microsoft Entra ID.
+<img src="screenshots/Entra Download.png" width="450">
 
+#### Microsoft Entra Connect Sync
+The Microsoft Entra "Download Connect Sync Agent" option was selected to configure directory synchronization between the local Active Directory environment and Microsoft Entra ID.
+<img src="screenshots/Download Sync.png" width="450">
 
+#### Creating Administrative Account
+Before configuring synchronization, a dedicated Microsoft Entra administrative account was created to manage cloud identity services.
+<img src="screenshots/Admin Account.png" width="450">
 
+#### Assigning Global Administrator Role
+The account was assigned the Global Administrator role, providing the permissions required to configure and manage synchronization services.
+<img src="screenshots/Assign Admin.png" width="450">
 
+#### Signing in with Administrator Account
+The newly created administrator account was used to authenticate and configure Microsoft Entra Connect, and will be used to migrate.
+<img src="screenshots/AD DS Login.png" width="450">
 
+#### Successful Synchronization
+Synchronization completed successfully, establishing a connection between Active Directory Domain Services and Microsoft Entra ID.
+<img src="screenshots/Success Connection.png" width="450">
 
+#### Verifying Synchronized Users
+User accounts from the on-premises Active Directory environment were successfully synchronized and appeared within Microsoft Entra ID.
+<img src="screenshots/Verifying User Sync.png" width="450">
 
-
-
+#### Creating IT Department Group
+An IT Department group was created within Microsoft Entra ID to organize administrative users and prepare for future cloud-based access control and security policies.
+<img src="screenshots/Creating IT group.png" width="450">
 
 
 
