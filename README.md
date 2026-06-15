@@ -274,6 +274,12 @@ Troubleshooting steps included:
 - Validating domain communication between the server and client
 
 
+# Hybrid Identity Extension: Microsoft Entra ID Integration
+### After successfully deploying and configuring the on-premises Active Directory environment, the project was extended by integrating Active Directory Domain Services with Microsoft Entra ID using Microsoft Entra Connect Sync. This allowed domain users and groups to be synchronized to the cloud, creating a hybrid identity environment commonly used in modern enterprise networks.
+
+## 
+
+
 
 
 
