@@ -323,9 +323,9 @@ An IT Department group was created within Microsoft Entra ID to organize adminis
 
 ## Conclusion
 
-#### This project demonstrates the deployment and administration of a complete Active Directory environment using Windows Server 2019 and Windows 10. Infrastructure services including DNS, DHCP, RRAS/NAT, Group Policy, delegated administration, PowerShell automation, and role-based access controls were successfully implemented and tested.
+##### This project demonstrates the deployment and administration of a complete Active Directory environment using Windows Server 2019 and Windows 10. Infrastructure services including DNS, DHCP, RRAS/NAT, Group Policy, delegated administration, PowerShell automation, and role-based access controls were successfully implemented and tested.
 
-#### The environment was further enhanced through integration with Microsoft Entra ID, allowing Active Directory identities to synchronize with the cloud. This hybrid identity configuration demonstrates both traditional on-premises administration skills and modern cloud identity management practices used in enterprise environments.
+##### The environment was further enhanced through integration with Microsoft Entra ID, allowing Active Directory identities to synchronize with the cloud. This hybrid identity configuration demonstrates both traditional on-premises administration skills and modern cloud identity management practices used in enterprise environments.
 
 
 
